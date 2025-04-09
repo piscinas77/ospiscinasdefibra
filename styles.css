@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #00303f;
+}
+
+header {
+    text-align: center;
+    background-color: #00303f;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.preco, .modelos {
+    padding: 20px;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #00303f;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00303f;
+}
+
+.whatsapp {
+    color: white;
+    background-color: #25D366;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
